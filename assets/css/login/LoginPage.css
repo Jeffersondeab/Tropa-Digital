@@ -32,11 +32,14 @@ body{
 }
 
 #formulario-first__base img{
-    /* position: absolute;
-    left: 84px; */
     margin-left: 84px;
     margin-top: 70px;
 
+}
+
+#formulario-first__base legend{
+    margin-left: 57px;
+    
 }
 
 
@@ -50,4 +53,54 @@ body{
     position: absolute;
     right: 49px;
     top: 99px;
+}
+
+
+
+
+
+
+.acess{
+    width: 313px;
+    height: 44px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    outline: 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 161.5%;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.acess::placeholder{
+    padding: 0 12px;
+}
+
+.int-email{
+    margin-left: 57px;
+    margin-top: 118.46px;
+}
+
+.int-password{
+    margin-left: 57px;
+    margin-top: 13px;
+}
+
+#btn-login{
+    margin-top: 13px;
+    margin-left: 57px;
+    background: #2EAFB2;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 151px;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 186.5%;
+    text-align: center;
+    color: #FFFFFF;
 }
