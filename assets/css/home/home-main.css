@@ -44,7 +44,8 @@
 }
 
 .main-content__img{
-    width: 33.93vw;
+    width: calc(45vw/2);
+    width: 33.93vw; 
 }
 
 .main-content__data{
