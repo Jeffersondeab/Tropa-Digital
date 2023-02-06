@@ -3,17 +3,18 @@ body{
 }
 
 
+
 #formulario{
-    width: 62.73vw;
-    height: 512px;
-    display: flex;
-    margin: auto;
-    margin-top: 8vh;
-    justify-items: center;
     background: #ffffff;
     box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
+    display: flex;
+    height: 512px; 
+    justify-items: center;
+    margin: auto;
+    margin-top: 8vh;
     position: relative;
+    width: 62.73vw;
 }
 
 
@@ -23,12 +24,14 @@ body{
 
 
 #formulario-first__base{
-    width: 34.62vw;
     height: 513px;
-    position: absolute;
     left: 0%;
+    position: absolute;
     top: 0%;
+    width: 34.62vw;
 }
+
+
 
 #formulario-first__base img{
     margin-left: 84px;
@@ -36,16 +39,18 @@ body{
 
 }
 
+
 #formulario-first__base legend{
     color: rgba(0, 0, 0, 0.44);
-    margin-left: 57px;
-    margin-top: 44.46px;
     font-style: normal;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: 186.5%;
+    margin-left: 57px;
+    margin-top: 44.46px;
 }
+
 
 #formulario-first__base legend > span{
     color:#FF6C22 ;
@@ -66,39 +71,36 @@ body{
 
 
 
-
-
 #acess-email,
 #acess-password{
-    display: flex;
     align-items: center;
-    width: 313px;
-    height: 44px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    outline: 0;
+    color: rgba(0, 0, 0, 0.35);
+    display: flex;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
+    height: 44px; 
     line-height: 161.5%;
-    color: rgba(0, 0, 0, 0.35);
     margin-left: 57px;
     margin-top: 20px;
+    outline: 0;
+    width: 313px;
 }
 
 
-
- 
 
 .int-email{
-    display: flex;
-    margin: auto;
-    width: 288px;
-    height: 19px;
     border: none;
+    display: flex;
+    height: 19px;
+    margin: auto;
     outline: 0;
+    width: 288px;
 }
+
 
 #acess-password{
     display: flex;
@@ -106,37 +108,39 @@ body{
     margin-top: 0px;
 }
 
+
 .int-password{
+    border: none;
     display: flex;
+    height: 19px;
     margin: auto;
     margin-left: 12px;
-    width: 288px;
-    height: 19px;
-    border: none;
     outline: 0;
+    width: 288px;
 }
 
 
 .fa-eye-slash{
-    font-size: 15px;
     cursor: pointer;
+    font-size: 15px;
     margin-right: 10px;
 }
 
 
+
 #btn-Linklogin #btn-login{
-    margin-top: 0px;
-    margin-left: 57px;
     background: #2EAFB2;
     border-radius: 5px;
     border: none;
+    color: #FFFFFF;
     cursor: pointer;
-    width: 151px;
-    height: 40px;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 14px;
+    height: 40px;
     line-height: 186.5%;
+    margin-top: 0px;
+    margin-left: 57px;
     text-align: center;
-    color: #FFFFFF;
+    width: 151px;
 }
